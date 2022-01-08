@@ -1,0 +1,137 @@
+* {
+  font-family: 'Gilroy',sans-serif;
+  transition: 0.5s all;
+  font-weight: 600;
+  margin: 0 auto;
+}
+#app {
+  width: 220px;
+  box-shadow: 0 3px 15px blue;
+  background-color: #ff9900;
+  border-radius: 10px;
+}
+#app:hover {
+  box-shadow: 10px 10px 25px red;
+  transition: .5s linear;
+}
+input[type="text"] {
+  width: 200px;
+  border: 0;
+  border-radius: 17px;
+  color: #243849;
+  font-size: 27px;
+  padding: 5px 5px;
+  text-align: right;
+  border-bottom: 5px double #ff9900;
+  border-top: 5px double #ff9900;
+}
+.grid {
+  display: flex;                       
+  flex-wrap: wrap;  
+  justify-content: space-around;
+  width: 100%;
+}
+.cell {
+  flex: 33%;                       
+  height: 50px;
+  font-size: 18px;
+  border: none;
+}
+.num {
+  background-color: #243849;
+  color: #fff;
+  font-weight: 400;
+}
+.cell:hover{
+  background-color: #182530;
+}
+.op {
+  background-color: #ff9900;
+  color: #243849;
+}
+
+.op:hover{
+  background-color: #324e67;
+  color: #ff9900;
+  transition: .5s linear;
+}
+
+#R {
+  border: 2px groove #243849;
+  border-radius: 10px;
+  background-color: #324e67;
+  color: #ff9900;
+}
+
+#R:hover {
+  background-color: #ff9900;
+  color: #243849;
+  transition: .5s linear;
+}
+
+#equal {
+  border: 2px groove #243849;
+  border-radius: 10px;
+  background-color: #324e67;
+  color: #ff9900;
+}
+
+#equal:hover {
+  background-color: #ff9900;
+  color: #243849;
+  transition: .5s linear;
+}
+
+/*---*/
+
+.title {
+  font-family: 'The Nautigal', cursive;
+  font-size: 130px;
+  margin-bottom: 100px;
+  color: #fff;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 100px 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*gradient color of bg*/
+.wrapper { 
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
