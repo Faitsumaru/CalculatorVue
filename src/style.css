@@ -135,3 +135,23 @@ input[type="text"] {
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
+
+@media (max-width: 750px) {
+  .title {
+    font-size: 70px;
+    margin-bottom: 70px;
+  }
+  .container {
+    padding: 70px 10px 0 0;
+  }
+}
+
+@media (max-width: 410px) {
+  .title {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  .container {
+    padding: 50px 10px 0 0;
+  }
+}
