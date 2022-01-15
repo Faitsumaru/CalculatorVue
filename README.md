@@ -7,4 +7,4 @@ That is workable Calculator (done with HTML, CSS & JS [_VUE.JS_]) (+awesome grad
  
  [link on the GitHub Pages: https://faitsumaru.github.io/CalculatorVue/src/index.html] 
 
- -> A Pen created on CodePen.io. Original URL: https://codepen.io/Faitsu/pen/ZEOWpzw. <-
+ -> A Pen created on CodePen.io. Original URL: https://codepen.io/Faitsu/pen/ZEOWpzw <-
